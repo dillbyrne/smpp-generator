@@ -49,7 +49,7 @@ def generate_phrase(wordlist,numofwords):
 		while phrase.count(word) is not 0:
 			word = choice(wordlist)	
 
-		phrase.append(choice(wordlist))
+		phrase.append(word)
 	
 	pphrase = ""
 	
