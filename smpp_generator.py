@@ -71,7 +71,7 @@ def generate_phrase(wordlist,numofwords):
 
 def write_phrase_to_file(phrase,filename):
 	phrasefile = open(filename,'a')
-	phrasefile.write(phrase);
+	phrasefile.write(phrase)
 	phrasefile.close()	
 	
 def	generate_phrase_file(noOfWords,noOfLines,inFile,outFile):
@@ -90,7 +90,7 @@ def	generate_phrase_file(noOfWords,noOfLines,inFile,outFile):
 		print "Not enough unique words in input file {:s}".format(inFile)
 		exit()
 	
-	zeros = len(str(noOfLines));
+	zeros = len(str(noOfLines))
 
 
 	for i in range(1,noOfLines+1):
